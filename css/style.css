@@ -17,12 +17,12 @@
 .title {
     font-size: 90px;
     position: relative;
-    top: 45vh;
+    top: 30vh;
 }
 
 .subtitle {
     position: relative;
-    top: 50vh;
+    top: 30vh;
     font-size: 20px;
 }
 
@@ -61,4 +61,26 @@
     position: relative;
     bottom: 47em;
     left: 12em;
+}
+
+@media (max-width: 768px) {
+
+    .bg-image {
+        height: 220px !important;
+    }
+
+    .title {
+        font-size: 20px;
+        top: 9vh;
+    }
+
+    .subtitle {
+        font-size: 10px;
+        top: 9vh;
+    }
+
+    .button {
+        top: 70px;
+        font-size: 14px;
+    }
 }
