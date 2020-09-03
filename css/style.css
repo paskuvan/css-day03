@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:wght@300&display=swap');
+
+.font-weight {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.font-regular {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.white {
+    color:white;
+}
+
+.title {
+    font-size: 90px;
+    position: relative;
+    top: 45vh;
+}
+
+.subtitle {
+    position: relative;
+    top: 50vh;
+    font-size: 20px;
+}
+
+.button {
+    position: relative;
+    top: 15em;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.color-gradient {
+    background: #facb4e;
+    background: -moz-linear-gradient(left,  #facb4e 0%, #f48e38 100%); 
+    background: -webkit-linear-gradient(left,  #facb4e 0%,#f48e38 100%); 
+    background: linear-gradient(to right,  #facb4e 0%,#f48e38 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#facb4e', endColorstr='#f48e38',GradientType=1 ); 
+}
+
+.btn-default {
+    border-radius: 20px;
+    color: white;
+}
+
+.menu-transparent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.img-element {
+    height: 750px;
+    position: relative;
+    bottom: 47em;
+    left: 12em;
+}
